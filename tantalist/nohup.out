@@ -1,0 +1,76 @@
+== Sinatra (v1.4.8) has taken the stage on 4567 for development with backup from Puma
+Puma starting in single mode...
+* Version 3.8.2 (ruby 2.4.0-p0), codename: Sassy Salamander
+* Min threads: 0, max threads: 16
+* Environment: development
+* Listening on tcp://localhost:4567
+Use Ctrl-C to stop
+127.0.0.1 - - [09/Jul/2017:10:07:06 -0400] "GET / HTTP/1.1" 200 4174 0.0083
+127.0.0.1 - - [09/Jul/2017:10:07:06 -0400] "GET /assets/css/bootstrap.css HTTP/1.1" 404 496 0.0004
+127.0.0.1 - - [09/Jul/2017:10:07:06 -0400] "GET /assets/css/bootstrap-responsive.css HTTP/1.1" 404 507 0.0009
+127.0.0.1 - - [09/Jul/2017:10:07:06 -0400] "GET /assets/js/jquery.js HTTP/1.1" 404 491 0.0004
+127.0.0.1 - - [09/Jul/2017:10:07:06 -0400] "GET /assets/js/bootstrap-transition.js HTTP/1.1" 404 505 0.0002
+127.0.0.1 - - [09/Jul/2017:10:07:06 -0400] "GET /assets/js/bootstrap-alert.js HTTP/1.1" 404 500 0.0003
+127.0.0.1 - - [09/Jul/2017:10:07:06 -0400] "GET /assets/js/bootstrap-modal.js HTTP/1.1" 404 500 0.0004
+127.0.0.1 - - [09/Jul/2017:10:07:06 -0400] "GET /assets/js/bootstrap-dropdown.js HTTP/1.1" 404 503 0.0003
+127.0.0.1 - - [09/Jul/2017:10:07:06 -0400] "GET /assets/js/bootstrap-scrollspy.js HTTP/1.1" 404 504 0.0002
+127.0.0.1 - - [09/Jul/2017:10:07:06 -0400] "GET /assets/js/bootstrap-tab.js HTTP/1.1" 404 498 0.0003
+127.0.0.1 - - [09/Jul/2017:10:07:06 -0400] "GET /assets/js/bootstrap-tooltip.js HTTP/1.1" 404 502 0.0002
+127.0.0.1 - - [09/Jul/2017:10:07:06 -0400] "GET /assets/js/bootstrap-popover.js HTTP/1.1" 404 502 0.0002
+127.0.0.1 - - [09/Jul/2017:10:07:06 -0400] "GET /assets/js/bootstrap-button.js HTTP/1.1" 404 501 0.0002
+127.0.0.1 - - [09/Jul/2017:10:07:06 -0400] "GET /assets/js/bootstrap-collapse.js HTTP/1.1" 404 503 0.0003
+127.0.0.1 - - [09/Jul/2017:10:07:06 -0400] "GET /assets/js/bootstrap-carousel.js HTTP/1.1" 404 503 0.0002
+127.0.0.1 - - [09/Jul/2017:10:07:06 -0400] "GET /assets/js/bootstrap-typeahead.js HTTP/1.1" 404 504 0.0002
+127.0.0.1 - - [09/Jul/2017:10:07:06 -0400] "GET /Groceries-to-Go-Start-Shopping-HPG.jpg HTTP/1.1" 404 500 0.0002
+127.0.0.1 - - [09/Jul/2017:10:07:06 -0400] "GET /Groc_Dept.jpg HTTP/1.1" 404 475 0.0004
+127.0.0.1 - - [09/Jul/2017:10:07:06 -0400] "GET /assets/css/bootstrap.css HTTP/1.1" 404 496 0.0004
+127.0.0.1 - - [09/Jul/2017:10:07:06 -0400] "GET /assets/css/bootstrap-responsive.css HTTP/1.1" 404 507 0.0003
+127.0.0.1 - - [09/Jul/2017:10:07:06 -0400] "GET /Groceries-to-Go-Start-Shopping-HPG.jpg HTTP/1.1" 404 500 0.0003
+127.0.0.1 - - [09/Jul/2017:10:07:06 -0400] "GET /Groc_Dept.jpg HTTP/1.1" 404 475 0.0004
+127.0.0.1 - - [09/Jul/2017:10:07:06 -0400] "GET /assets/js/jquery.js HTTP/1.1" 404 491 0.0004
+127.0.0.1 - - [09/Jul/2017:10:07:06 -0400] "GET /assets/js/bootstrap-transition.js HTTP/1.1" 404 505 0.0003
+127.0.0.1 - - [09/Jul/2017:10:07:06 -0400] "GET /assets/js/bootstrap-alert.js HTTP/1.1" 404 500 0.0002
+127.0.0.1 - - [09/Jul/2017:10:07:06 -0400] "GET /assets/js/bootstrap-modal.js HTTP/1.1" 404 500 0.0004
+127.0.0.1 - - [09/Jul/2017:10:07:06 -0400] "GET /assets/js/bootstrap-dropdown.js HTTP/1.1" 404 503 0.0003
+127.0.0.1 - - [09/Jul/2017:10:07:06 -0400] "GET /assets/js/bootstrap-scrollspy.js HTTP/1.1" 404 504 0.0003
+127.0.0.1 - - [09/Jul/2017:10:07:07 -0400] "GET /assets/js/bootstrap-tab.js HTTP/1.1" 404 498 0.0003
+127.0.0.1 - - [09/Jul/2017:10:07:07 -0400] "GET /assets/js/bootstrap-tooltip.js HTTP/1.1" 404 502 0.0004
+127.0.0.1 - - [09/Jul/2017:10:07:07 -0400] "GET /assets/js/bootstrap-popover.js HTTP/1.1" 404 502 0.0003
+127.0.0.1 - - [09/Jul/2017:10:07:07 -0400] "GET /assets/js/bootstrap-button.js HTTP/1.1" 404 501 0.0003
+127.0.0.1 - - [09/Jul/2017:10:07:07 -0400] "GET /assets/js/bootstrap-collapse.js HTTP/1.1" 404 503 0.0003
+127.0.0.1 - - [09/Jul/2017:10:07:07 -0400] "GET /assets/js/bootstrap-carousel.js HTTP/1.1" 404 503 0.0003
+127.0.0.1 - - [09/Jul/2017:10:07:07 -0400] "GET /assets/js/bootstrap-typeahead.js HTTP/1.1" 404 504 0.0004
+127.0.0.1 - - [09/Jul/2017:10:07:07 -0400] "GET /favicon.ico HTTP/1.1" 404 473 0.0004
+127.0.0.1 - - [09/Jul/2017:10:13:02 -0400] "GET /assets/css/bootstrap.css HTTP/1.1" 404 496 0.0003
+127.0.0.1 - - [09/Jul/2017:10:13:02 -0400] "GET /assets/css/bootstrap-responsive.css HTTP/1.1" 404 507 0.0002
+127.0.0.1 - - [09/Jul/2017:10:13:51 -0400] "GET / HTTP/1.1" 200 4174 0.0011
+127.0.0.1 - - [09/Jul/2017:10:13:51 -0400] "GET /assets/css/bootstrap.css HTTP/1.1" 404 496 0.0004
+127.0.0.1 - - [09/Jul/2017:10:13:51 -0400] "GET /assets/css/bootstrap-responsive.css HTTP/1.1" 404 507 0.0002
+127.0.0.1 - - [09/Jul/2017:10:13:51 -0400] "GET /Groceries-to-Go-Start-Shopping-HPG.jpg HTTP/1.1" 404 500 0.0002
+127.0.0.1 - - [09/Jul/2017:10:13:51 -0400] "GET /Groc_Dept.jpg HTTP/1.1" 404 475 0.0003
+127.0.0.1 - - [09/Jul/2017:10:13:51 -0400] "GET /assets/js/jquery.js HTTP/1.1" 404 491 0.0004
+127.0.0.1 - - [09/Jul/2017:10:13:51 -0400] "GET /assets/js/bootstrap-transition.js HTTP/1.1" 404 505 0.0007
+127.0.0.1 - - [09/Jul/2017:10:13:51 -0400] "GET /assets/js/bootstrap-alert.js HTTP/1.1" 404 500 0.0003
+127.0.0.1 - - [09/Jul/2017:10:13:51 -0400] "GET /assets/js/bootstrap-modal.js HTTP/1.1" 404 500 0.0004
+127.0.0.1 - - [09/Jul/2017:10:13:51 -0400] "GET /assets/js/bootstrap-dropdown.js HTTP/1.1" 404 503 0.0004
+127.0.0.1 - - [09/Jul/2017:10:13:51 -0400] "GET /assets/js/bootstrap-scrollspy.js HTTP/1.1" 404 504 0.0004
+127.0.0.1 - - [09/Jul/2017:10:13:51 -0400] "GET /assets/js/bootstrap-tab.js HTTP/1.1" 404 498 0.0004
+127.0.0.1 - - [09/Jul/2017:10:13:51 -0400] "GET /assets/js/bootstrap-tooltip.js HTTP/1.1" 404 502 0.0003
+127.0.0.1 - - [09/Jul/2017:10:13:51 -0400] "GET /assets/js/bootstrap-popover.js HTTP/1.1" 404 502 0.0004
+127.0.0.1 - - [09/Jul/2017:10:13:51 -0400] "GET /assets/js/bootstrap-button.js HTTP/1.1" 404 501 0.0002
+127.0.0.1 - - [09/Jul/2017:10:13:51 -0400] "GET /assets/js/bootstrap-collapse.js HTTP/1.1" 404 503 0.0004
+127.0.0.1 - - [09/Jul/2017:10:13:51 -0400] "GET /assets/js/bootstrap-carousel.js HTTP/1.1" 404 503 0.0003
+127.0.0.1 - - [09/Jul/2017:10:13:51 -0400] "GET /assets/js/bootstrap-typeahead.js HTTP/1.1" 404 504 0.0002
+127.0.0.1 - - [09/Jul/2017:10:13:51 -0400] "GET /assets/js/jquery.js HTTP/1.1" 404 491 0.0006
+127.0.0.1 - - [09/Jul/2017:10:13:51 -0400] "GET /assets/js/bootstrap-transition.js HTTP/1.1" 404 505 0.0007
+127.0.0.1 - - [09/Jul/2017:10:13:51 -0400] "GET /assets/js/bootstrap-alert.js HTTP/1.1" 404 500 0.0003
+127.0.0.1 - - [09/Jul/2017:10:13:51 -0400] "GET /assets/js/bootstrap-modal.js HTTP/1.1" 404 500 0.0004
+127.0.0.1 - - [09/Jul/2017:10:13:51 -0400] "GET /assets/js/bootstrap-dropdown.js HTTP/1.1" 404 503 0.0003
+127.0.0.1 - - [09/Jul/2017:10:13:51 -0400] "GET /assets/js/bootstrap-scrollspy.js HTTP/1.1" 404 504 0.0004
+127.0.0.1 - - [09/Jul/2017:10:13:51 -0400] "GET /assets/js/bootstrap-tab.js HTTP/1.1" 404 498 0.0004
+127.0.0.1 - - [09/Jul/2017:10:13:51 -0400] "GET /assets/js/bootstrap-tooltip.js HTTP/1.1" 404 502 0.0003
+127.0.0.1 - - [09/Jul/2017:10:13:51 -0400] "GET /assets/js/bootstrap-popover.js HTTP/1.1" 404 502 0.0003
+127.0.0.1 - - [09/Jul/2017:10:13:51 -0400] "GET /assets/js/bootstrap-button.js HTTP/1.1" 404 501 0.0004
+127.0.0.1 - - [09/Jul/2017:10:13:51 -0400] "GET /assets/js/bootstrap-collapse.js HTTP/1.1" 404 503 0.0003
+127.0.0.1 - - [09/Jul/2017:10:13:51 -0400] "GET /assets/js/bootstrap-carousel.js HTTP/1.1" 404 503 0.0003
+127.0.0.1 - - [09/Jul/2017:10:13:51 -0400] "GET /assets/js/bootstrap-typeahead.js HTTP/1.1" 404 504 0.0003
