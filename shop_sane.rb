@@ -1,4 +1,4 @@
-#!/usr/bin/env ruby
+s#!/usr/bin/env ruby
 require 'sinatra'
 
 get '/' do

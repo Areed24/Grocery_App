@@ -1,6 +1,6 @@
-# Project Title
+# Shop Sane
 
-One Paragraph of project description goes here
+Welcome to the repository for Shop Sane! This project is a "pet project" of mine used to hone my development skills. The end product of this project will be an application that will help you manage your grocery store adventures. From creating a list to take with you in store (on your mobile device), to tracking historic spending on groceries and helping you decide what to buy when you visit the grocery store, Shop Sane is here to help.
 
 ## Getting Started
 
@@ -8,10 +8,16 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Installing the Ruby Programming Language
 
 ```
-Give examples
+sudo apt-get install ruby
+```
+
+Installing sinatra
+
+```
+sudo apt-get install sinatra
 ```
 
 ### Installing
@@ -68,7 +74,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
 
 ## Authors
 
@@ -85,4 +91,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * Hat tip to anyone who's code was used
 * Inspiration
 * etc
-
