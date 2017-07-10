@@ -1,2 +1,0 @@
-# tantalist
-Grocery Store App
